@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoBot - Bukan Bot Biasa</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.46.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar bg-dark shadow-md mb-3 text-neutral-content">
+      <a class="btn btn-ghost normal-case text-lg">TINR Ai</a>
+      <i class="fa-solid fa-paper-plane-top"></i>
+    </div>
+    <div id="app" class="w-full h-full">
+      <div class="container " id="chat_container"></div>
+
+      <form class="fixed bottom-0 my-2 mx-2">
+        <textarea class="textarea w-full focus:outline-none rounded-md resize-y mx-auto mr-3" name="prompt" rows="1" cols="1" placeholder="Kamu Nanyeeeaa?"></textarea>
+        <button type="submit"><ion-icon id="send" name="send"></ion-icon>
+      </form>
+    </div>
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
